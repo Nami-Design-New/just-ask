@@ -1,0 +1,1290 @@
+<!doctype html>
+<html>
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>بس كول </title>
+  <!-- icon -->
+  <link rel="icon" type="image/x-icon" href="img/fav.png">
+  <!-- Bootstrap -->
+  <link rel="stylesheet" id="BootstrapLink" href="css/bootstrap.rtl.css">
+  <!-- Material Design Bootstrap -->
+  <link rel="stylesheet" id="MDBlink" href="css/mdb.rtl.min.css">
+
+  <!-- select2  -->
+  <link rel="stylesheet" href="css/select2.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="css/all.css">
+  <!-- swiper -->
+  <link rel="stylesheet" href="css/swiper.css">
+  <!-- odometer -->
+  <link rel="stylesheet" href="css/odometer.min.css">
+  <!-- animate -->
+  <link rel="stylesheet" href="css/animate.min.css">
+  <!-- side menu -->
+  <link rel="stylesheet" href="css/ma5-menu.min.css">
+  <!-- dropify -->
+  <link rel="stylesheet" href="css/dropify.min.css">
+  <!-- img gallery -->
+  <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+  <!-- Custom style  -->
+  <link rel="stylesheet" id="StyleLink" href="css/style.css">
+  <!-- responsive style  -->
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+  <!-- ================ /Header ================= -->
+<!-- top header -->
+<section class=" topHeader ">
+  <div class="container">
+    <div class="d-flex align-items-center justify-content-between ">
+      <div class="me-3 d-flex align-items-center">
+        <p class="d-flex align-items-center"> <i class="fas fa-globe"></i> <span class="d-none d-md-block me-2 ">اللغة :
+          </span> </p>
+        <select class="select2 ">
+          <option value="1"> عربي </option>
+          <option value="2"> English </option>
+        </select>
+      </div>
+      <div class="me-3 d-flex align-items-center">
+        <p class="d-flex align-items-center"> <i class="fas fa-map-marked-alt"></i> <span
+            class="d-none d-md-block me-2 ">موقعك الحالي هو :</span> </p>
+        <select class="select2 ">
+          <option value="0"> الكل </option>
+          <option value="1"> بغداد </option>
+          <option value="3"> صلاح الدين </option>
+        </select>
+      </div>
+      <div>
+        <span class="Login"><a href="login.html"> تسجيل الدخول </a></span>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Middle Header Area -->
+<section class="MiddleHeader">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-3 col-6  order-lg-1  p-1 d-flex  justify-content-between align-items-center">
+        <a href="index.html">
+          <img src="img/logo.png" class="logo">
+        </a>
+      </div>
+      <div class="col-lg-3 col-6  order-lg-3  p-1 d-flex justify-content-end  align-items-center">
+        <a href="#!" class="notification">
+          <i class="fal fa-bell"> <span class="badge"> 1 </span></i>
+        </a>
+        <a href="cart.html" class="notification">
+          <i class="fal fa-shopping-cart"> <span class="badge"> 1 </span></i>
+        </a>
+      </div>
+      <div class="col-lg-6 col-12 order-lg-2  p-1 d-flex  justify-content-center   align-items-center">
+        <form>
+          <div class="search-box">
+            <input type="text" class="form-control" placeholder="ابحث عن منتج .. ">
+            <button type="submit"> <i class="far fa-search"></i> </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Navbar Area -->
+<section class="navbar-area">
+  <div class="main-navbar">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand font-weight-bold d-lg-none " href="index.html"> بس كول </a>
+        <div class="collapse navbar-collapse mean-menu">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link">
+                الرئيسية
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="sections.html" class="nav-link">
+                الاقسام
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="offers.html" class="nav-link">
+                العروض
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="profile-orders.html" class="nav-link">
+                حسابي
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="about.html" class="nav-link">
+                تعرف علينا
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!-- mobile menu toggle button start -->
+        <a href="#!" class="ma5menu__toggle d-lg-none">
+          <i class="fal fa-bars"></i>
+        </a>
+      </nav>
+    </div>
+  </div>
+</section>
+<!-- mobile bottom  nav -->
+<div class=" linkIcons d-lg-none">
+  <a href="index.html">
+    <i class="fal fa-home-alt"></i>
+    <span class="TabName"> الرئيسية </span>
+  </a>
+  <a href="sections.html">
+    <i class="fal fa-store-alt"></i>
+    <span class="TabName"> الاقسام </span>
+  </a>
+  <a href="offers.html">
+    <i class="fal fa-tags"></i>
+    <span class="TabName"> العروض </span>
+  </a>
+  <a href="profile.html">
+    <i class="fal fa-user"></i>
+    <span class="TabName"> حسابي </span>
+  </a>
+</div>
+<!-- mobile menu toggle button end -->
+<section style="display: none;">
+  <ul class="site-menu">
+    <li><a href="index.html"> الرئسية  </a></li>
+    <li><a href="sections.html"> الاقسام </a></li>
+    <li><a href="offers.html"> العروض  </a></li>
+    <li><a href="about.html"> تعرف علينا    </a></li>
+    <li><a href="profile.html"> حسابي</a></li>
+    <li><a href="cart.html"> السلة </a></li>
+    <li><a href="login.html">تسجيل الدخول</a></li>
+  </ul>
+  <!-- source for mobile menu end -->
+</section>
+<!-- // side Menu -->
+<script>
+  ma5menu({
+    menu: '.site-menu',
+    activeClass: 'active',
+    position: 'right',
+    closeOnBodyClick: true
+  });
+</script>
+<!-- <script>
+    // change language  
+    var open = false;
+    $('#language').click(function () {
+      open = !open;
+      if (open) {
+        $('#StyleLink').attr('href', 'css/styleEN.css');
+        $('#BootstrapLink').attr('href', 'css/bootstrap.css');
+        $('#MDBlink').attr('href', 'css/mdb.min.css');
+        $('#language').html('<a href="#" >عربي</a>');
+      } else {
+        $('#StyleLink').attr('href', 'css/style.css');
+        $('#BootstrapLink').attr('href', 'css/bootstrap.rtl.css');
+        $('#MDBlink').attr('href', 'css/mdb.rtl.min.css');
+        $('#language').html('<a href="#" >English</a>');
+      }
+    });
+  </script> -->  <!-- ================ /Header ================= -->
+  <!-- --------------------------------------------
+  -----
+  ----- 
+  -----
+  -----
+  -----
+  -----                  content
+  -----
+  -----
+  -----
+  -----
+  -----
+  -----
+  -------------------------------------------------->
+  <content>
+    <!-- Top Slider -->
+    <section class="TopSlider">
+      <div class="container">
+        <div id="MainSlider">
+          <div class="swiper-container MainSlider-container ">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide  mainSlideItem">
+                <img src="img/2.jpg">
+              </div>
+              <div class="swiper-slide  mainSlideItem  ">
+                <img src="img/1.jpg">
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Index links -->
+    <div class="container p-1">
+      <div class="row align-items-center">
+        <div class="col-lg-8 p-1">
+          <a href="open-business.html" class="joinUs">
+            <img src="img/joinUs.gif">
+          </a>
+        </div>
+        <div class="col-lg-4  p-1">
+          <div class="row">
+            <div class=" col-6 col-lg-12 p-0">
+              <div class="Indexlinks" style="background-image: url(img/all.jpg);">
+                <a href="kolshe-products.html">
+                  <span class="LinkIcon"> <i class="fal fa-store-alt"></i></span>
+                  كلشي وكلاشي
+                </a>
+              </div>
+            </div>
+            <div class=" col-6 col-lg-12 p-0">
+              <div class="Indexlinks" style="background-image: url(img/woman.jpg);">
+                <a href="#! ">
+                  <span class="LinkIcon"> <i class="fal fa-mitten"></i></span>
+                  انوثة
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Categories -->
+    <section class="Categories p-1 my-4 my-lg-5">
+      <div class="container p-1">
+        <div class="section-title">
+          <h2> المراكز التجارية الأعلى زيارة </h2>
+        </div>
+        <div class="swiper-container CategoriesSlider">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide ">
+              <a href="shop.html" class="singleCategory ">
+                <span class="categoryImg"><img src="img/shops/2.jpg"></span>
+                <p> ماكدونلز </p>
+              </a>
+            </div>
+            <div class="swiper-slide ">
+              <a href="shop.html" class="singleCategory ">
+                <span class="categoryImg"><img src="img/shops/4.jpg"></span>
+                <p> كنتاكي </p>
+              </a>
+            </div>
+            <div class="swiper-slide ">
+              <a href="shop.html" class="singleCategory  ">
+                <span class="categoryImg"><img src="img/shops/3.jpg"></span>
+                <p>برجر كينج</p>
+              </a>
+            </div>
+            <div class="swiper-slide ">
+              <a href="shop.html" class="singleCategory  ">
+                <span class="categoryImg"><img src="img/shops/5.jpg"></span>
+                <p> تاون تيم </p>
+              </a>
+            </div>
+            <div class="swiper-slide ">
+              <a href="shop.html" class="singleCategory locked ">
+                <span class="categoryImg"><img src="img/shops/6.jpg"></span>
+                <p> اتش & ام </p>
+              </a>
+            </div>
+            <div class="swiper-slide ">
+              <a href="shop.html" class="singleCategory locked ">
+                <span class="categoryImg"><img src="img/shops/1.jpg"></span>
+                <p>اراك </p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Category  -->
+    <section class=" single-category-section">
+      <div class="container">
+        <!-- Category imgS -->
+        <div class="imgSection">
+          <div class="WideImmge p-1">
+            <a href="#!">
+              <img src="img/wide2.png">
+            </a>
+          </div>
+        </div>
+        <!-- products -->
+        <div class="arrivals-products">
+          <div class="swiper-container productsSlider">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide p-1">
+                <div class="single-products">
+                  <div class="products-image">
+                    <a href="product-details.html"><img src="img/p1.png"></a>
+                    <ul class="action">
+                      <li>
+                        <a href="wishlist.html"><i class="far fa-heart"></i></a>
+                      </li>
+                      <li>
+                        <a href="#!" data-toggle="modal" data-target="#productsQuickView"><i class="fal fa-eye"></i></a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="products-content">
+                    <h3>
+                      <a href="product-details.html">حقيبة ظهر للسفر بحجم 17 بوصة </a>
+                    </h3>
+                    <p>افضل منتج في الفئة الخاصة به وذلك باجماع الخبراء</p>
+
+                    <span class="price">$99.00</span>
+                    <div class="input-counter">
+                      <span class="minus-btn">
+                        <i class="far fa-minus"></i>
+                      </span>
+                      <input type="number" value="0">
+                      <span class="plus-btn">
+                        <i class="far fa-plus"></i>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide p-1">
+                <div class="single-products">
+                  <div class="products-image">
+                    <a href="product-details.html"><img src="img/p2.png"></a>
+                    <div class="saleTag">30%</div>
+                    <ul class="action">
+                      <li>
+                        <a href="wishlist.html"><i class="far fa-heart"></i></a>
+                      </li>
+                      <li>
+                        <a href="#!" data-toggle="modal" data-target="#productsQuickView"><i class="fal fa-eye"></i></a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="products-content">
+                    <h3>
+                      <a href="product-details.html">بتوجاز يونيفرسال 5 شعلة مصنع من الاستالس </a>
+                    </h3>
+                    <p>منتج متميز مصم خصيصا لك وبجودة عالية جدا من اجل راحتك</p>
+
+                    <span class="oldPrice">$110.00</span>
+                    <span class="price">$99.00</span>
+                    <div class="input-counter">
+                      <span class="minus-btn">
+                        <i class="far fa-minus"></i>
+                      </span>
+                      <input type="number" value="0">
+                      <span class="plus-btn">
+                        <i class="far fa-plus"></i>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide p-1">
+                <div class="single-products">
+                  <div class="products-image">
+                    <a href="product-details.html"><img src="img/p3.png"></a>
+                    <div class="tag"> جديد </div>
+                    <ul class="action">
+                      <li>
+                        <a href="wishlist.html"><i class="far fa-heart"></i></a>
+                      </li>
+                      <li>
+                        <a href="#!" data-toggle="modal" data-target="#productsQuickView"><i class="fal fa-eye"></i></a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="products-content">
+                    <h3>
+                      <a href="product-details.html">ثلاجة سامسونج 18 قدم نوفروست </a>
+                    </h3>
+                    <p>افضل منتج في الفئة الخاصة به وذلك باجماع الخبراء</p>
+
+                    <span class="price">$99.00</span>
+                    <div class="input-counter">
+                      <span class="minus-btn">
+                        <i class="far fa-minus"></i>
+                      </span>
+                      <input type="number" value="0">
+                      <span class="plus-btn">
+                        <i class="far fa-plus"></i>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide p-1">
+                <div class="single-products">
+                  <div class="products-image">
+                    <a href="product-details.html"><img src="img/p4.png"></a>
+                    <div class="tag"> جديد </div>
+                    <ul class="action">
+                      <li>
+                        <a href="wishlist.html"><i class="far fa-heart"></i></a>
+                      </li>
+                      <li>
+                        <a href="#!" data-toggle="modal" data-target="#productsQuickView"><i class="fal fa-eye"></i></a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="products-content">
+                    <h3>
+                      <a href="product-details.html">عطر انثوي مميز </a>
+                    </h3>
+                    <p>منتج متميز مصم خصيصا لك وبجودة عالية جدا من اجل راحتك</p>
+
+                    <span class="price">$99.00</span>
+                    <div class="input-counter">
+                      <span class="minus-btn">
+                        <i class="far fa-minus"></i>
+                      </span>
+                      <input type="number" value="0">
+                      <span class="plus-btn">
+                        <i class="far fa-plus"></i>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide p-1">
+                <div class="single-products">
+                  <div class="products-image">
+                    <a href="product-details.html"><img src="img/p5.png"></a>
+                    <div class="tag"> جديد </div>
+                    <ul class="action">
+                      <li>
+                        <a href="wishlist.html"><i class="far fa-heart"></i></a>
+                      </li>
+                      <li>
+                        <a href="#!" data-toggle="modal" data-target="#productsQuickView"><i class="fal fa-eye"></i></a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="products-content">
+                    <h3>
+                      <a href="product-details.html">بدي لوشن</a>
+                    </h3>
+                    <p>منتج متميز مصم خصيصا لك وبجودة عالية جدا من اجل راحتك</p>
+
+                    <span class="price">$99.00</span>
+                    <div class="input-counter">
+                      <span class="minus-btn">
+                        <i class="far fa-minus"></i>
+                      </span>
+                      <input type="number" value="0">
+                      <span class="plus-btn">
+                        <i class="far fa-plus"></i>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Add Arrows -->
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- trend-products -->
+    <section class="arrivals-products">
+      <div class="container">
+        <div class="section-title">
+          <h2> وصل حديثا </h2>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-sm-4 col-6 p-1">
+            <div class="single-products">
+              <div class="products-image">
+                <a href="product-details.html"><img src="img/p1.png"></a>
+                <ul class="action">
+                  <li>
+                    <a href="wishlist.html"><i class="far fa-heart"></i></a>
+                  </li>
+                  <li>
+                    <a href="#!" data-toggle="modal" data-target="#productsQuickView"><i class="fal fa-eye"></i></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="products-content">
+                <h3>
+                  <a href="product-details.html">حقيبة ظهر للسفر بحجم 17 بوصة </a>
+                </h3>
+                <p>افضل منتج في الفئة الخاصة به وذلك باجماع الخبراء</p>
+                <ul class="rating">
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                </ul>
+                <span class="price">$99.00</span>
+                <div class="input-counter">
+                  <span class="minus-btn">
+                    <i class="far fa-minus"></i>
+                  </span>
+                  <input type="number" value="0">
+                  <span class="plus-btn">
+                    <i class="far fa-plus"></i>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-4 col-6 p-1">
+            <div class="single-products">
+              <div class="products-image">
+                <a href="product-details.html"><img src="img/p2.png"></a>
+                <div class="saleTag">30%</div>
+                <ul class="action">
+                  <li>
+                    <a href="wishlist.html"><i class="far fa-heart"></i></a>
+                  </li>
+                  <li>
+                    <a href="#!" data-toggle="modal" data-target="#productsQuickView"><i class="fal fa-eye"></i></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="products-content">
+                <h3>
+                  <a href="product-details.html">بتوجاز يونيفرسال 5 شعلة مصنع من الاستالس </a>
+                </h3>
+                <p>منتج متميز مصم خصيصا لك وبجودة عالية جدا من اجل راحتك</p>
+                <ul class="rating">
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                </ul>
+                <span class="oldPrice">$110.00</span>
+                <span class="price">$99.00</span>
+                <div class="input-counter">
+                  <span class="minus-btn">
+                    <i class="far fa-minus"></i>
+                  </span>
+                  <input type="number" value="0">
+                  <span class="plus-btn">
+                    <i class="far fa-plus"></i>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-4 col-6 p-1">
+            <div class="single-products">
+              <div class="products-image">
+                <a href="product-details.html"><img src="img/p3.png"></a>
+                <div class="tag"> جديد </div>
+                <ul class="action">
+                  <li>
+                    <a href="wishlist.html"><i class="far fa-heart"></i></a>
+                  </li>
+                  <li>
+                    <a href="#!" data-toggle="modal" data-target="#productsQuickView"><i class="fal fa-eye"></i></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="products-content">
+                <h3>
+                  <a href="product-details.html">ثلاجة سامسونج 18 قدم نوفروست </a>
+                </h3>
+                <p>افضل منتج في الفئة الخاصة به وذلك باجماع الخبراء</p>
+                <ul class="rating">
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                </ul>
+                <span class="price">$99.00</span>
+                <div class="input-counter">
+                  <span class="minus-btn">
+                    <i class="far fa-minus"></i>
+                  </span>
+                  <input type="number" value="0">
+                  <span class="plus-btn">
+                    <i class="far fa-plus"></i>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-4 col-6 p-1">
+            <div class="single-products">
+              <div class="products-image">
+                <a href="product-details.html"><img src="img/p4.png"></a>
+                <div class="tag"> جديد </div>
+                <ul class="action">
+                  <li>
+                    <a href="wishlist.html"><i class="far fa-heart"></i></a>
+                  </li>
+                  <li>
+                    <a href="#!" data-toggle="modal" data-target="#productsQuickView"><i class="fal fa-eye"></i></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="products-content">
+                <h3>
+                  <a href="product-details.html">عطر انثوي مميز </a>
+                </h3>
+                <p>منتج متميز مصم خصيصا لك وبجودة عالية جدا من اجل راحتك</p>
+                <ul class="rating">
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                </ul>
+                <span class="price">$99.00</span>
+                <div class="input-counter">
+                  <span class="minus-btn">
+                    <i class="far fa-minus"></i>
+                  </span>
+                  <input type="number" value="0">
+                  <span class="plus-btn">
+                    <i class="far fa-plus"></i>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-4 col-6 p-1">
+            <div class="single-products">
+              <div class="products-image">
+                <a href="product-details.html"><img src="img/p5.png"></a>
+                <div class="tag"> جديد </div>
+                <ul class="action">
+                  <li>
+                    <a href="wishlist.html"><i class="far fa-heart"></i></a>
+                  </li>
+                  <li>
+                    <a href="#!" data-toggle="modal" data-target="#productsQuickView"><i class="fal fa-eye"></i></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="products-content">
+                <h3>
+                  <a href="product-details.html">بدي لوشن</a>
+                </h3>
+                <p>منتج متميز مصم خصيصا لك وبجودة عالية جدا من اجل راحتك</p>
+                <ul class="rating">
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                </ul>
+                <span class="price">$99.00</span>
+                <div class="input-counter">
+                  <span class="minus-btn">
+                    <i class="far fa-minus"></i>
+                  </span>
+                  <input type="number" value="0">
+                  <span class="plus-btn">
+                    <i class="far fa-plus"></i>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-4 col-6 p-1">
+            <div class="single-products">
+              <div class="products-image">
+                <a href="product-details.html"><img src="img/p1.png"></a>
+                <ul class="action">
+                  <li>
+                    <a href="wishlist.html"><i class="far fa-heart"></i></a>
+                  </li>
+                  <li>
+                    <a href="#!" data-toggle="modal" data-target="#productsQuickView"><i class="fal fa-eye"></i></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="products-content">
+                <h3>
+                  <a href="product-details.html">حقيبة ظهر للسفر بحجم 17 بوصة </a>
+                </h3>
+                <p>افضل منتج في الفئة الخاصة به وذلك باجماع الخبراء</p>
+                <ul class="rating">
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                </ul>
+                <span class="price">$99.00</span>
+                <div class="input-counter">
+                  <span class="minus-btn">
+                    <i class="far fa-minus"></i>
+                  </span>
+                  <input type="number" value="0">
+                  <span class="plus-btn">
+                    <i class="far fa-plus"></i>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-4 col-6 p-1">
+            <div class="single-products">
+              <div class="products-image">
+                <a href="product-details.html"><img src="img/p2.png"></a>
+                <div class="saleTag">30%</div>
+                <ul class="action">
+                  <li>
+                    <a href="wishlist.html"><i class="far fa-heart"></i></a>
+                  </li>
+                  <li>
+                    <a href="#!" data-toggle="modal" data-target="#productsQuickView"><i class="fal fa-eye"></i></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="products-content">
+                <h3>
+                  <a href="product-details.html">بتوجاز يونيفرسال 5 شعلة مصنع من الاستالس </a>
+                </h3>
+                <p>منتج متميز مصم خصيصا لك وبجودة عالية جدا من اجل راحتك</p>
+                <ul class="rating">
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                </ul>
+                <span class="oldPrice">$110.00</span>
+                <span class="price">$99.00</span>
+                <div class="input-counter">
+                  <span class="minus-btn">
+                    <i class="far fa-minus"></i>
+                  </span>
+                  <input type="number" value="0">
+                  <span class="plus-btn">
+                    <i class="far fa-plus"></i>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-4 col-6 p-1">
+            <div class="single-products">
+              <div class="products-image">
+                <a href="product-details.html"><img src="img/p3.png"></a>
+                <div class="tag"> جديد </div>
+                <ul class="action">
+                  <li>
+                    <a href="wishlist.html"><i class="far fa-heart"></i></a>
+                  </li>
+                  <li>
+                    <a href="#!" data-toggle="modal" data-target="#productsQuickView"><i class="fal fa-eye"></i></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="products-content">
+                <h3>
+                  <a href="product-details.html">ثلاجة سامسونج 18 قدم نوفروست </a>
+                </h3>
+                <p>افضل منتج في الفئة الخاصة به وذلك باجماع الخبراء</p>
+                <ul class="rating">
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                </ul>
+                <span class="price">$99.00</span>
+                <div class="input-counter">
+                  <span class="minus-btn">
+                    <i class="far fa-minus"></i>
+                  </span>
+                  <input type="number" value="0">
+                  <span class="plus-btn">
+                    <i class="far fa-plus"></i>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-4 col-6 p-1">
+            <div class="single-products">
+              <div class="products-image">
+                <a href="product-details.html"><img src="img/p4.png"></a>
+                <div class="tag"> جديد </div>
+                <ul class="action">
+                  <li>
+                    <a href="wishlist.html"><i class="far fa-heart"></i></a>
+                  </li>
+                  <li>
+                    <a href="#!" data-toggle="modal" data-target="#productsQuickView"><i class="fal fa-eye"></i></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="products-content">
+                <h3>
+                  <a href="product-details.html">عطر انثوي مميز </a>
+                </h3>
+                <p>منتج متميز مصم خصيصا لك وبجودة عالية جدا من اجل راحتك</p>
+                <ul class="rating">
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                </ul>
+                <span class="price">$99.00</span>
+                <div class="input-counter">
+                  <span class="minus-btn">
+                    <i class="far fa-minus"></i>
+                  </span>
+                  <input type="number" value="0">
+                  <span class="plus-btn">
+                    <i class="far fa-plus"></i>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-4 col-6 p-1">
+            <div class="single-products">
+              <div class="products-image">
+                <a href="product-details.html"><img src="img/p5.png"></a>
+                <div class="tag"> جديد </div>
+                <ul class="action">
+                  <li>
+                    <a href="wishlist.html"><i class="far fa-heart"></i></a>
+                  </li>
+                  <li>
+                    <a href="#!" data-toggle="modal" data-target="#productsQuickView"><i class="fal fa-eye"></i></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="products-content">
+                <h3>
+                  <a href="product-details.html">بدي لوشن</a>
+                </h3>
+                <p>منتج متميز مصم خصيصا لك وبجودة عالية جدا من اجل راحتك</p>
+                <ul class="rating">
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                </ul>
+                <span class="price">$99.00</span>
+                <div class="input-counter">
+                  <span class="minus-btn">
+                    <i class="far fa-minus"></i>
+                  </span>
+                  <input type="number" value="0">
+                  <span class="plus-btn">
+                    <i class="far fa-plus"></i>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-4 col-6 p-1">
+            <div class="single-products">
+              <div class="products-image">
+                <a href="product-details.html"><img src="img/p1.png"></a>
+                <ul class="action">
+                  <li>
+                    <a href="wishlist.html"><i class="far fa-heart"></i></a>
+                  </li>
+                  <li>
+                    <a href="#!" data-toggle="modal" data-target="#productsQuickView"><i class="fal fa-eye"></i></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="products-content">
+                <h3>
+                  <a href="product-details.html">حقيبة ظهر للسفر بحجم 17 بوصة </a>
+                </h3>
+                <p>افضل منتج في الفئة الخاصة به وذلك باجماع الخبراء</p>
+                <ul class="rating">
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                </ul>
+                <span class="price">$99.00</span>
+                <div class="input-counter">
+                  <span class="minus-btn">
+                    <i class="far fa-minus"></i>
+                  </span>
+                  <input type="number" value="0">
+                  <span class="plus-btn">
+                    <i class="far fa-plus"></i>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-4 col-6 p-1">
+            <div class="single-products">
+              <div class="products-image">
+                <a href="product-details.html"><img src="img/p2.png"></a>
+                <div class="saleTag">30%</div>
+                <ul class="action">
+                  <li>
+                    <a href="wishlist.html"><i class="far fa-heart"></i></a>
+                  </li>
+                  <li>
+                    <a href="#!" data-toggle="modal" data-target="#productsQuickView"><i class="fal fa-eye"></i></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="products-content">
+                <h3>
+                  <a href="product-details.html">بتوجاز يونيفرسال 5 شعلة مصنع من الاستالس </a>
+                </h3>
+                <p>منتج متميز مصم خصيصا لك وبجودة عالية جدا من اجل راحتك</p>
+                <ul class="rating">
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                </ul>
+                <span class="oldPrice">$110.00</span>
+                <span class="price">$99.00</span>
+                <div class="input-counter">
+                  <span class="minus-btn">
+                    <i class="far fa-minus"></i>
+                  </span>
+                  <input type="number" value="0">
+                  <span class="plus-btn">
+                    <i class="far fa-plus"></i>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-4 col-6 p-1">
+            <div class="single-products">
+              <div class="products-image">
+                <a href="product-details.html"><img src="img/p3.png"></a>
+                <div class="tag"> جديد </div>
+                <ul class="action">
+                  <li>
+                    <a href="wishlist.html"><i class="far fa-heart"></i></a>
+                  </li>
+                  <li>
+                    <a href="#!" data-toggle="modal" data-target="#productsQuickView"><i class="fal fa-eye"></i></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="products-content">
+                <h3>
+                  <a href="product-details.html">ثلاجة سامسونج 18 قدم نوفروست </a>
+                </h3>
+                <p>افضل منتج في الفئة الخاصة به وذلك باجماع الخبراء</p>
+                <ul class="rating">
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                </ul>
+                <span class="price">$99.00</span>
+                <div class="input-counter">
+                  <span class="minus-btn">
+                    <i class="far fa-minus"></i>
+                  </span>
+                  <input type="number" value="0">
+                  <span class="plus-btn">
+                    <i class="far fa-plus"></i>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-4 col-6 p-1">
+            <div class="single-products">
+              <div class="products-image">
+                <a href="product-details.html"><img src="img/p4.png"></a>
+                <div class="tag"> جديد </div>
+                <ul class="action">
+                  <li>
+                    <a href="wishlist.html"><i class="far fa-heart"></i></a>
+                  </li>
+                  <li>
+                    <a href="#!" data-toggle="modal" data-target="#productsQuickView"><i class="fal fa-eye"></i></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="products-content">
+                <h3>
+                  <a href="product-details.html">عطر انثوي مميز </a>
+                </h3>
+                <p>منتج متميز مصم خصيصا لك وبجودة عالية جدا من اجل راحتك</p>
+                <ul class="rating">
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                </ul>
+                <span class="price">$99.00</span>
+                <div class="input-counter">
+                  <span class="minus-btn">
+                    <i class="far fa-minus"></i>
+                  </span>
+                  <input type="number" value="0">
+                  <span class="plus-btn">
+                    <i class="far fa-plus"></i>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-4 col-6 p-1">
+            <div class="single-products">
+              <div class="products-image">
+                <a href="product-details.html"><img src="img/p5.png"></a>
+                <div class="tag"> جديد </div>
+                <ul class="action">
+                  <li>
+                    <a href="wishlist.html"><i class="far fa-heart"></i></a>
+                  </li>
+                  <li>
+                    <a href="#!" data-toggle="modal" data-target="#productsQuickView"><i class="fal fa-eye"></i></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="products-content">
+                <h3>
+                  <a href="product-details.html">بدي لوشن</a>
+                </h3>
+                <p>منتج متميز مصم خصيصا لك وبجودة عالية جدا من اجل راحتك</p>
+                <ul class="rating">
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                </ul>
+                <span class="price">$99.00</span>
+                <div class="input-counter">
+                  <span class="minus-btn">
+                    <i class="far fa-minus"></i>
+                  </span>
+                  <input type="number" value="0">
+                  <span class="plus-btn">
+                    <i class="far fa-plus"></i>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-4 col-6 p-1">
+            <div class="single-products">
+              <div class="products-image">
+                <a href="product-details.html"><img src="img/p1.png"></a>
+                <ul class="action">
+                  <li>
+                    <a href="wishlist.html"><i class="far fa-heart"></i></a>
+                  </li>
+                  <li>
+                    <a href="#!" data-toggle="modal" data-target="#productsQuickView"><i class="fal fa-eye"></i></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="products-content">
+                <h3>
+                  <a href="product-details.html">حقيبة ظهر للسفر بحجم 17 بوصة </a>
+                </h3>
+                <p>افضل منتج في الفئة الخاصة به وذلك باجماع الخبراء</p>
+                <ul class="rating">
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                  <li><i class="fas fa-star"></i></li>
+                </ul>
+                <span class="price">$99.00</span>
+                <div class="input-counter">
+                  <span class="minus-btn">
+                    <i class="far fa-minus"></i>
+                  </span>
+                  <input type="number" value="0">
+                  <span class="plus-btn">
+                    <i class="far fa-plus"></i>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </content>
+  <!-- --------------------------------------------
+  -----
+  -----
+  -----
+  -----
+  -----
+  -----                 end content
+  -----
+  -----
+  -----
+  -----
+  -----
+  -----
+  -------------------------------------------------->
+  <!--  QuickView Modal  -->
+  <div class="modal fade productsQuickView" id="productsQuickView" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span><i class="far fa-times"></i></span>
+        </button>
+        <div class="row align-items-center">
+          <div class="col-lg-6 col-md-6 ">
+            <div class="sliderWithThumb">
+              <div class="swiper-container gallery-top">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <a data-fancybox="products" href="img/p1.png" data-caption="">
+                      <img src="img/p1.png">
+                    </a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a data-fancybox="products" href="img/p2.png" data-caption="">
+                      <img src="img/p2.png">
+                    </a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a data-fancybox="products" href="img/p3.png" data-caption="">
+                      <img src="img/p3.png">
+                    </a>
+                  </div>
+                </div>
+                <!-- Add Arrows -->
+                <div class="swiper-button-next swiper-button-white"></div>
+                <div class="swiper-button-prev swiper-button-white"></div>
+              </div>
+              <div class="swiper-container gallery-thumbs">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide"><img src="img/p1.png"></div>
+                  <div class="swiper-slide"><img src="img/p2.png"></div>
+                  <div class="swiper-slide"><img src="img/p3.png"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6">
+            <div class="product-content">
+              <h3>حقيبة ظهر للسفر بحجم 17 بوصة </h3>
+              بس كول
+              <div class="price">
+                <span class="old-price">150.00</span>
+                <span class="new-price">75.00</span>
+              </div>
+              <p>افضل منتج في الفئة الخاصة به وذلك باجماع الخبراء</p>
+              <ul class="products-info">
+                <li><span>التوفر:</span> <a href="#!"> متاح </a></li>
+              </ul>
+              <!-- <div class="products-color-switch">
+                <p class="available-color"><span>الالوان</span> :
+                  <a href="#!" style="background: #a53c43;"></a>
+                  <a href="#!" style="background: #192861;"></a>
+                  <a href="#!" style="background: #c58a84;"></a>
+                  <a href="#!" style="background: #ecc305;"></a>
+                  <a href="#!" style="background: #000000;"></a>
+                  <a href="#!" style="background: #808080;"></a>
+                </p>
+              </div> -->
+              <div class="product-quantities">
+                <span>الكمية:</span>
+                <div class="input-counter">
+                  <span class="minus-btn">
+                    <i class="far fa-minus"></i>
+                  </span>
+                  <input type="number" value="0">
+                  <span class="plus-btn">
+                    <i class="far fa-plus"></i>
+                  </span>
+                </div>
+              </div>
+              <div class="products-share">
+                <ul class="social">
+                  <li><span>مشاركة :</span></li>
+                  <li>
+                    <a href="#!" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                  </li>
+                  <li>
+                    <a href="#!" target="_blank"><i class="fab fa-twitter"></i></a>
+                  </li>
+                  <li>
+                    <a href="#!" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                  </li>
+                  <li>
+                    <a href="#!" target="_blank"><i class="fab fa-instagram"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--  QuickView Modal  -->
+  <div class="modal fade productsQuickView" id="AddRX" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span><i class="far fa-times"></i></span>
+        </button>
+        <form class="addRX-form">
+          <h5> قم برفع صورة الروشتة وسيتم التواصل معك علي البريد الالكتروني </h5>
+          <input type="file" id="input-file-now-custom-1" class="dropify" />
+          <button type="submit" class="default-btn mt-3"><i class="fal fa-paper-plane me-2"></i> ارسال
+            <span></span></button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <!-- ================ /Footer ================= -->
+  <div id="Footer"></div>
+  <!-- ================ /Footer ================= -->
+  <!--////////////////////////////////////////////////////////////////////////////////-->
+  <!--////////////////////////////////////////////////////////////////////////////////-->
+  <!--////////////////////////////////////////////////////////////////////////////////-->
+  <!--/////////////////////////////JavaScript/////////////////////////////////////////-->
+  <!--////////////////////////////////////////////////////////////////////////////////-->
+  <!--////////////////////////////////////////////////////////////////////////////////-->
+  <!--////////////////////////////////////////////////////////////////////////////////-->
+  <script src="js/jquery-3.5.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/jquery.appear.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/mdb.min.js"></script>
+  <script src="js/swiper.js"></script>
+  <script src="js/wow.min.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/fontawesome-pro.js"></script>
+  <script src="js/odometer.min.js"></script>
+  <script src="js/select2.js"></script>
+  <script src="js/ma5-menu.min.js"></script>
+  <script src="js/dropify.min.js"></script>
+  <script src="js/Custom.js"></script>
+  <script>
+    $('#Header').load("Header.html");
+    $('#Footer').load("Footer.html");
+  </script>
+</body>
+
+</html>
